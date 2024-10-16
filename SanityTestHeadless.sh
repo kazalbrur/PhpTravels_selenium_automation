@@ -1,0 +1,1 @@
+pytest -v --alluredir="AllureReports" -p no:warnings

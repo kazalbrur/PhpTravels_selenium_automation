@@ -1,0 +1,1 @@
+pytest -v --alluredir="AllureReports" --browser chrome -p no:warnings

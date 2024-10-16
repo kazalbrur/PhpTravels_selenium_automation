@@ -1,0 +1,3 @@
+[32mINFO    [0m Test_HotelSearch:test_hotel_page.py:14 Starting test_hotel_search
+[32mINFO    [0m Test_HotelSearch:test_hotel_page.py:18 Loading the hotel booking page
+[32mINFO    [0m Test_HotelSearch:test_hotel_page.py:22 Selecting hotel search and entering 'Barcelona'

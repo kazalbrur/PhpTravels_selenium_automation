@@ -1,0 +1,2 @@
+[32mINFO    [0m Test_Login_Page_DDT:test_Login_DDT.py:21 Starting test_login_ddt_001
+[32mINFO    [0m Test_Login_Page_DDT:test_Login_DDT.py:22 Launching Browser

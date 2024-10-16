@@ -1,0 +1,10 @@
+[32mINFO    [0m Test_Login_Page:test_Login.py:37 Starting test_login_001
+[32mINFO    [0m Test_Login_Page:test_Login.py:38 Launching Browser
+[32mINFO    [0m Test_Login_Page:test_Login.py:40 Going to this URL-->https://phptravels.net/admin/
+[32mINFO    [0m Test_Login_Page:test_Login.py:42 Entering Email-->admin@phptravels.com
+[32mINFO    [0m Test_Login_Page:test_Login.py:44 Entering Password-->demoadmin
+[32mINFO    [0m Test_Login_Page:test_Login.py:46 Clicking on Login Button
+[32mINFO    [0m Test_Login_Page:test_Login.py:48 Page Title Matched--test_login_001 is Passed
+[32mINFO    [0m Test_Login_Page:test_Login.py:50 Saving test_login_001--Passed Screenshot
+[32mINFO    [0m Test_Login_Page:test_Login.py:52 Clicking on Menu Button
+[32mINFO    [0m Test_Login_Page:test_Login.py:54 Clicking on Logout Button

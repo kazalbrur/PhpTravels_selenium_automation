@@ -1,0 +1,2 @@
+Timeout occurred while selecting the hotel search element
+Timeout occurred while typing the hotel name

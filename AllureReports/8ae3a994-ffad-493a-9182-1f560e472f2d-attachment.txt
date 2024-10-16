@@ -1,0 +1,21 @@
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:22 Starting test_Add_User_001
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:23 Launching Browser
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:25 Going to this URL-->https://phptravels.net/admin/
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:27 Entering Email-->admin@phptravels.com
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:29 Entering Password-->demoadmin
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:31 Clicking on Login Button
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:34 Clicking on Users Dropdown
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:36 Clicking on All Users Option
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:38 Clicking on Add Button
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:40 Choosing 'Enabled' on status Dropdown
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:42 Entering User's FirstName
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:44 Entering User's LastName
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:46 Entering User's EmailID
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:48 Entering User's Password
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:50 Entering User's Phone Number
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:52 Choosing 'Admin' on UserType Dropdown
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:54 Choosing 'USD' on Currency Dropdown
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:56 Clicking on save Button
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:59 test_Add_User_001 is Passed
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:61 Taking test_Add_User_001--Passed Screenshot
+[32mINFO    [0m test_Add_User_001:test_Add_User.py:68 test_Add_User_001 is Completed

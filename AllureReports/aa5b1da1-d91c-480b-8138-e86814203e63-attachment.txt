@@ -1,0 +1,3 @@
+[32mINFO    [0m test_login_param_001:test_Login_Params.py:19 Starting test_login_param_001
+[32mINFO    [0m test_login_param_001:test_Login_Params.py:20 Launching Browser
+[32mINFO    [0m test_login_param_001:test_Login_Params.py:22 Going to this URL-->https://phptravels.net/admin/

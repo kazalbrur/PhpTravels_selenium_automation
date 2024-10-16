@@ -1,0 +1,59 @@
+{
+    "name": "test_Add_User_001",
+    "status": "broken",
+    "statusDetails": {
+        "message": "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n#0 0x614a8bb0c02a <unknown>\n#1 0x614a8b7f25e0 <unknown>\n#2 0x614a8b841be8 <unknown>\n#3 0x614a8b841e81 <unknown>\n#4 0x614a8b8888c4 <unknown>\n#5 0x614a8b866b4d <unknown>\n#6 0x614a8b885d7d <unknown>\n#7 0x614a8b8668c3 <unknown>\n#8 0x614a8b8346b3 <unknown>\n#9 0x614a8b83568e <unknown>\n#10 0x614a8bad6a2b <unknown>\n#11 0x614a8bada9b1 <unknown>\n#12 0x614a8bac3225 <unknown>\n#13 0x614a8badb532 <unknown>\n#14 0x614a8baa838f <unknown>\n#15 0x614a8bafaf28 <unknown>\n#16 0x614a8bafb0f3 <unknown>\n#17 0x614a8bb0ae7c <unknown>\n#18 0x79cc52c9ca94 <unknown>\n#19 0x79cc52d29c3c <unknown>",
+        "trace": "self = <TestCases.test_Add_User.Test_Add_User object at 0x79e5ef314d30>\nsetup = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"166db12ea92e198fb3b18d1ed78993b9\")>\n\n    @pytest.mark.sanity\n    def test_Add_User_001(self, setup):\n        self.driver = setup\n        self.log = LogGenerator.log_gen()\n        self.lp = LoginPage(self.driver)\n        self.au = Add_User(self.driver)\n    \n        self.log.info(\"Starting test_Add_User_001\")\n        self.log.info(\"Launching Browser\")\n        self.driver.get(self.url)\n        self.log.info(\"Going to this URL-->\" + self.url)\n        self.lp.enter_email(self.email)\n        self.log.info(\"Entering Email-->\" + self.email)\n        self.lp.enter_pwd(self.pwd)\n        self.log.info(\"Entering Password-->\" + self.pwd)\n        self.lp.click_login_button()\n        self.log.info(\"Clicking on Login Button\")\n    \n>       self.au.click_users_dropdown()\n\nTestCases/test_Add_User.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/Add_User_POM.py:31: in click_users_dropdown\n    ele = self.wait.until(ec.element_to_be_clickable(Add_User.click_users_dropdown_xpath))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"166db12ea92e198fb3b18d1ed78993b9\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x79e5ecaf9af0>, message = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       #0 0x614a8bb0c02a <unknown>\nE       #1 0x614a8b7f25e0 <unknown>\nE       #2 0x614a8b841be8 <unknown>\nE       #3 0x614a8b841e81 <unknown>\nE       #4 0x614a8b8888c4 <unknown>\nE       #5 0x614a8b866b4d <unknown>\nE       #6 0x614a8b885d7d <unknown>\nE       #7 0x614a8b8668c3 <unknown>\nE       #8 0x614a8b8346b3 <unknown>\nE       #9 0x614a8b83568e <unknown>\nE       #10 0x614a8bad6a2b <unknown>\nE       #11 0x614a8bada9b1 <unknown>\nE       #12 0x614a8bac3225 <unknown>\nE       #13 0x614a8badb532 <unknown>\nE       #14 0x614a8baa838f <unknown>\nE       #15 0x614a8bafaf28 <unknown>\nE       #16 0x614a8bafb0f3 <unknown>\nE       #17 0x614a8bb0ae7c <unknown>\nE       #18 0x79cc52c9ca94 <unknown>\nE       #19 0x79cc52d29c3c <unknown>\n\n../../../anaconda3/lib/python3.9/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException"
+    },
+    "attachments": [
+        {
+            "name": "log",
+            "source": "43a5db73-b1fd-48d7-86d9-79fe1828b0eb-attachment.txt",
+            "type": "text/plain"
+        }
+    ],
+    "start": 1729062467801,
+    "stop": 1729062480796,
+    "uuid": "ac1b78e1-cc7e-4fe6-8ff0-8ac2b91468b0",
+    "historyId": "b95f26efa5da2d61bda7dc3ef427218c",
+    "testCaseId": "b95f26efa5da2d61bda7dc3ef427218c",
+    "fullName": "TestCases.test_Add_User.Test_Add_User#test_Add_User_001",
+    "labels": [
+        {
+            "name": "tag",
+            "value": "sanity"
+        },
+        {
+            "name": "parentSuite",
+            "value": "TestCases"
+        },
+        {
+            "name": "suite",
+            "value": "test_Add_User"
+        },
+        {
+            "name": "subSuite",
+            "value": "Test_Add_User"
+        },
+        {
+            "name": "host",
+            "value": "nsl42"
+        },
+        {
+            "name": "thread",
+            "value": "114388-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "TestCases.test_Add_User"
+        }
+    ]
+}

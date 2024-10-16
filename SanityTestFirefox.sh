@@ -1,0 +1,1 @@
+pytest -v --alluredir="AllureReports" --browser firefox -p no:warnings
