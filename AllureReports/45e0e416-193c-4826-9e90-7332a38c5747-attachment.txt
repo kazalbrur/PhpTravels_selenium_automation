@@ -1,2 +1,0 @@
-Timeout occurred while clicking the submit button
-Timeout occurred while getting the search result

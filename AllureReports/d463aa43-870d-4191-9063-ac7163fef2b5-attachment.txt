@@ -1,5 +1,0 @@
-[32mINFO    [0m Test_Login_Page:test_Login.py:18 Starting test_PageTitle_001
-[32mINFO    [0m Test_Login_Page:test_Login.py:19 Launching Browser
-[32mINFO    [0m Test_Login_Page:test_Login.py:21 Going to this URL-->https://phptravels.net/admin/
-[32mINFO    [0m Test_Login_Page:test_Login.py:23 Page Title Matched--test_PageTitle_001 is Passed
-[32mINFO    [0m Test_Login_Page:test_Login.py:25 Saving test_PageTitle_001--Passed Screenshot

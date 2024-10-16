@@ -1,6 +1,0 @@
-[32mINFO    [0m test_Add_User_001:test_Add_User.py:22 Starting test_Add_User_001
-[32mINFO    [0m test_Add_User_001:test_Add_User.py:23 Launching Browser
-[32mINFO    [0m test_Add_User_001:test_Add_User.py:25 Going to this URL-->https://phptravels.net/admin/
-[32mINFO    [0m test_Add_User_001:test_Add_User.py:27 Entering Email-->admin@phptravels.com
-[32mINFO    [0m test_Add_User_001:test_Add_User.py:29 Entering Password-->demoadmin
-[32mINFO    [0m test_Add_User_001:test_Add_User.py:31 Clicking on Login Button
